@@ -1,3 +1,140 @@
-<html>
-<p>Hello.</p>
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+
+    <link rel="icon" href="./assets/images/icon.jpg" />
+		<title>Unemployables Portfolio</title>
+    <meta name="description" content="Sui's Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+
+		<script defer src="./js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="./index.html">
+        <span class="nav-title">Sui's Portfolio</span>
+        <a class="button" href="https://x.com/suisui80">
+          <span class="button-text">X (Twitter)</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PORTFOLIO HEADER -->
+      <div id="portfolio-header">
+        <div id="portfolio-header-image-container">
+          <img src="./assets/images/icon.jpg" class="portfolio-header-image">
+          <a class="no-underline" target="_blank" href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311">
+            <span class="image-caption">Sui (@sui8)</span>
+          </a>
+        </div>
+
+        <div id="portfolio-header-text-container">
+            <div class="header-text">
+              <span class="main-title">Hey, I'm @sui8.</span>
+              <div class="body-text">I’m a high school student.</div>
+            </div>
+            <a class="button" href="https://github.com/sui8?tab=repositories">
+              <span class="button-text">Check out my repositories</span> 
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+        </div>
+      </div>
+
+      <!-- ABOUT SECTION -->
+      <div id="about-section">
+        <span class="subheader-text">My Background / About Me</span>
+        <div class="about-section-content">
+          <div class="body-text">:)</div>
+        </div>
+      </div>
+
+      <!-- PROJECTS / MY WORK SECTION -->
+      <div id="my-work-section">
+        <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
+        <span class="subheader-text">My Work / My Projects</span>
+
+        <div class="projects-container">
+          <!-- 
+            TODO
+
+            This is where the project cards live. Here's a base level project card for you to copy:
+            <div class="project-card">
+              <img src="./assets/images/IMAGE_NAME" class="project-image">
+              <div class="project-card-text-container">
+                <div class="subheader-text project-title">PROJECT_NAME</div>
+                <div class="body-text project-card-text">SMALL_PROJECT_DESCRIPTION</div>
+              </div>
+              <a class="button" href="./project-pages/PROJECT_PAGE_NAME.html">
+                <span class="button-text">Read More</span>
+                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+              </a>
+            </div>
+
+            - To add a project to the this area, copy the above, paste it below this comment, and change the following:
+                - IMAGE_NAME: the name of the image file in assets/images
+                - PROJECT_NAME: the name of the project (keep it short, it only shows 1 line)
+                - SMALL_PROJECT_DESCRIPTION: a quick project description (max 4 lines)
+                - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
+          -->
+          <div class="project-card">
+            <img src="./assets/images/desktop.jpeg" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Discord Bots</div>
+              <div class="body-text project-card-text">wip</div>
+            </div>
+            <!--
+            <a class="button" href="./project-pages/project-template.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>-->
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/code.jpeg" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Rhythm Game</div>
+              <div class="body-text project-card-text">wip</div>
+            </div>
+            <!--
+            <a class="button" href="./project-pages/project-template.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>-->
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/sketchbook.jpeg" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">NavigationEV3</div>
+              <div class="body-text project-card-text">wip...?</div>
+            </div>
+            <!--
+            <a class="button" href="./project-pages/project-template.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!--
+      <a class="icon-link" target="_blank" href="https://x.com/suisui80">
+        <image src="./assets/icons/instagram.svg" class="footer-icon"/>
+      </a>-->
+      <a class="icon-link" target="_blank" href="https://x.com/suisui80">
+        <image src="./assets/icons/twitter.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
 </html>
